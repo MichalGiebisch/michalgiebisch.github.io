@@ -1,0 +1,165 @@
+body {
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  background:black;
+}
+
+.tabulka {
+  background:black;
+  
+}
+
+#hlava {
+  list-style-type:none;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  
+}
+
+button {
+  align-items:center;
+  font-size:40px;
+  color:white;
+  background:black;
+  border: 0px;
+  
+}
+
+.all {
+  background:white;
+}
+
+.header {
+  position:relative;
+  height:300px;
+  width:800px;
+  color:#222;
+  font-family:'Abril Fatface', cursive;
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-size: cover;
+  border-top:5px solid black;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p {
+  margin-top:20px;
+}
+
+h3 {
+  font-size:30px;
+}
+h1 {
+  font-size:50px;
+}
+
+.nameSmall {
+  position:absolute;
+  padding-top:170px;
+  right:390px;
+}
+
+.nameBig {
+  position:absolute;
+  padding-top:190px;
+  right:200px;
+}
+
+.normal {
+  font-family: 'Abril Fatface', cursive ;
+  font-size:15px;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+ul {
+  list-style-type:square;
+}
+
+.object{
+  position:relative;
+  color:white;
+  background:grey;
+  width:700px;
+  height:80px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  
+ 
+}
+
+#posun{
+  padding-top:20px;
+  
+  
+}
+
+blockquote::before {
+  content:"“";
+  background:grey;
+  color:white;
+  position:absolute; 
+  left:0px;
+  font-size:30px;
+  padding-left:130px;
+  padding-top:0px;
+  height:20px;
+}
+
+.notable{
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Abril Fatface', cursive ;
+}
+
+
+
+.object1{
+  position:relative;
+  color:white;
+  background:grey;
+  width:700px;
+  height:100px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+ 
+}
+
+#posun1{
+  padding-top:20px;
+  
+  
+}
+
+blockquote1::before {
+  content:"“";
+  background:grey;
+  color:white;
+  position:absolute; 
+  left:0px;
+  font-size:30px;
+  padding-left:180px;
+  padding-top:0px;
+  height:20px;
+}
+
+.training {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:5px solid black;
+  font-family: 'Abril Fatface', cursive ;
+}
+
+.personal {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Abril Fatface', cursive ;
+}
